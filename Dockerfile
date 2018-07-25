@@ -1,4 +1,5 @@
 FROM chusalvarez/spotathome
+USER root
 RUN apt-get -y install curl net-tools
 USER dev
 WORKDIR /home/dev
